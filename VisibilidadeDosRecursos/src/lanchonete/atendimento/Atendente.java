@@ -5,13 +5,13 @@ public class Atendente {
         //...?
         System.out.println("SERVINDO MESA");
     }
-    public void pegarLancheCozinha() {
+    private void pegarLancheCozinha() {
         System.out.println("PEGANDO O LANCHE NA COZINHA");
     }
     public void receberPagamento() {
         System.out.println("RECEBENDO PAGAMENTO");
     }
-    public void trocarGas() {
+    void trocarGas() {
         System.out.println("TROCANDO O GÁS");
     }
     public void pegarPedidoBalcao() {
